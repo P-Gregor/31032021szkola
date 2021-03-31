@@ -4,7 +4,7 @@
 	$passwd = "";
 	$dbname = "31032021";
 	$port = 3306;
-
+    // ladna dzis pogoda
 	$polaczenie = @new Mysqli($host,$user,$passwd,$dbname,$port); 
 
 	if (mysqli_connect_errno()!=0) {
