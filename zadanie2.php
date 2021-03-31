@@ -2,7 +2,7 @@
 	$host = "localhost";
 	$user = "root";
 	$passwd = "";
-	$dbname = "2atp-23-11-2020";
+	$dbname = "31032021";
 	$port = 3306;
 
 	$polaczenie = @new Mysqli($host,$user,$passwd,$dbname,$port); 
