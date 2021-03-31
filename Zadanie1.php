@@ -2,7 +2,7 @@
 
 
 
-
+//pozdrawiam
 
  $mysqli = new mysqli("localhost","root","","31032021");
 
