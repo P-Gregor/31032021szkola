@@ -6,9 +6,12 @@
 
  $mysqli = new mysqli("localhost","root","","31032021");
 
-// Check connection
+
 if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  echo "Nie udalo sie polaczyc z baza danych" . $mysqli -> connect_error;
   exit();
+}
+else{
+  echo("polaczono");
 }
 ?>
