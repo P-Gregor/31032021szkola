@@ -3,7 +3,7 @@
 
 
 //pozdrawiam
-
+// niestety jak sie wpisze zamiast localhosta moje ip to wyskakuje blad ale baza i tak jest pusta wiec wystarczy ze pan zrobi baze o tej samej nazwie
  $mysqli = new mysqli("localhost","root","","31032021");
 
 
